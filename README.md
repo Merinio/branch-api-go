@@ -30,8 +30,7 @@ Create a RESTful API in Go that manages the structure of a business with multipl
 
 ## Submission
 - Upload your code to a public Git repository (GitHub, GitLab, etc.).
-- Provide the link to the repository.
-- Book a block of time for us to go over your solution together.
+- Send us the link to the repository so that we book some time to go over it together.
 
 ## Tips
 - Focus on satisfying the requirements before optimizing or working on extra features.

@@ -23,11 +23,11 @@ Create a RESTful API in Go that manages the structure of a business with multipl
 2. **Branch Hierarchy**
    - The company structure is a non-cyclical hierarchy (tree structure).
    - Each branch has only one parent but can have multiple child branches.
-   - Requirements and restrictions are inherited from parent branches.
+   - Requirements and restrictions are inherited from all ancestor branches, parents, grandparents etc.
 
 3. **Requirements Query**
    - Implement an endpoint to retrieve the cumulative list of requirements and restrictions for a specific branch.
-   - The list should include the branch's own requirements plus all inherited requirements from its parent branches.
+   - The list should include the branch's own requirements plus all inherited requirements from its ancestor branches.
 
 ## Submission
 - Upload your code to a public Git repository (GitHub, GitLab, etc.).
